@@ -4,11 +4,11 @@
 http://af3dd12ebb6cd11e9bea1065fe5a4733-1388989332.us-west-2.elb.amazonaws.com/
 
 ## Introduction
-This is the project starter repo for the fourth course in the [Udacity Full Stack Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004): Server Deployment, Containerization, and Testing.
+This is the project implements Server Deployment, Containerization, and Testing.
 
-In this project you will containerize and deploy a Flask API to a Kubernetes cluster using Docker, AWS EKS, CodePipeline, and CodeBuild.
+In this project, I containerize and deploy a Flask API to a Kubernetes cluster using Docker, AWS EKS, CodePipeline, and CodeBuild.
 
-The Flask app that will be used for this project consists of a simple API with three endpoints:
+The Flask app that was used for this project consists of a simple API with three endpoints:
 
 - `GET '/'`: This is a simple health check, which returns the response 'Healthy'. 
 - `POST '/auth'`: This takes a email and password as json arguments and returns a JWT based on a custom secret.
